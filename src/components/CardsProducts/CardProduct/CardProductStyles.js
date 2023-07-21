@@ -15,7 +15,15 @@ export const CardProductContainer = styled.div`
   backdrop-filter: blur(5px);
   transform: scale(1);
   transition: all 0.3s ease;
+
+
+   &:hover {
+    transform: scale(1.00);
+    filter: drop-shadow(4px 4px 10px black);
+  }
 `;
+
+
 
 export const CardProductMidContainer = styled.div`
   padding: 20px;

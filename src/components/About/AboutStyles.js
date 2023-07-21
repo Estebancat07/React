@@ -7,9 +7,9 @@ export const AboutContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px 16px;
+ 
   gap: 20px;
-  padding-top: 70px;
+  
  
 `;
 

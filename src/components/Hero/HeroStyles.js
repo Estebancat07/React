@@ -1,5 +1,6 @@
 import { styled } from "styled-components";
-import ImgBG from "../../assets/imgs/hero/portada.jpg";
+import BackgroundBG from "../../assets/imgs/hero/portada.jpg";
+
 
 export const HeroContainer = styled.section`
   display: flex;
@@ -7,8 +8,13 @@ export const HeroContainer = styled.section`
   justify-content: center;
   align-items: center;
   max-width: 1300px;
-  transition: all ease 0.2s;
-  
+  width:100%;
+  height: 800px;
+  background-image: url("${BackgroundBG}");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+
 
   @media (max-width: 1100px) {
     max-width: 956px;
@@ -26,4 +32,7 @@ export const HeroContainer = styled.section`
     max-width: 320px;
   }
 `;
+
+
+
 

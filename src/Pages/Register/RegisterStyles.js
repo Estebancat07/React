@@ -24,6 +24,7 @@ export const RegisterTitle = styled.h1`
   font-size: 24px;
   color: black;
   font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 4px 6px 8px black;
 
   @media (max-width: 1024px){
     font-size: 42px;

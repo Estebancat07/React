@@ -7,7 +7,7 @@ export const CardsProductsContainer = styled.div`
     justify-content: center;
     padding: 20px 0px;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 70px;
     transition: all ease 0.25s;
 `
 

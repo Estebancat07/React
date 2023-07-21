@@ -1,18 +1,9 @@
-
 import {HeroContainer,} from "./HeroStyles";
-import SliderImgs from "../SliderImgs/SliderImgs";
 
-const Hero = ({ doScroll, scrollCat, scrollGen }) => {
+const Hero = ({ doScroll }) => {
   return (
     <HeroContainer>
-      <SliderImgs
-        id="#gallery"
-        doScroll={doScroll}
-        scrollCat={scrollCat}
-        scrollGen={scrollGen}
-      />
-
-  
+     
     </HeroContainer>
   );
 };

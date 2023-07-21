@@ -24,6 +24,7 @@ export const LoginTitle = styled.h1`
   color: black;
   text-align: center;
   font-family: "Roboto, sans-serif;";
+  text-shadow: 4px 6px 8px black;
 
   @media (max-width: 1024px){
     font-size: 42px;

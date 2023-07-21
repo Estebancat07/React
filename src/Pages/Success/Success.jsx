@@ -13,7 +13,7 @@ import { useSelector } from "react-redux";
 const Success = () => {
   useEffect(() => {
    
-    document.title = "¡Compra Exitosa!";
+    document.title = "Compra Exitosa!";
     successRef.current.scrollIntoView();
   }, []);
 
