@@ -17,19 +17,30 @@ export const HeroContainer = styled.section`
 
 
   @media (max-width: 1100px) {
-    max-width: 956px;
+    max-width: 700px;
+    height: 400px;
+    
+  }
+
+  @media (max-width: 900px) {
+    max-width: 600px;
+    height: 300px;
+    
   }
 
   @media (max-width: 768px) {
-    max-width: 600px;
+    max-width: 550px;
+    height: 300px;
   }
 
   @media (max-width: 480px) {
     max-width: 400px;
+    height: 250px;
   }
 
   @media (max-width: 320px) {
     max-width: 320px;
+    height: 200px;
   }
 `;
 

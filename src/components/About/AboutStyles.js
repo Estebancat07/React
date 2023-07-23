@@ -4,6 +4,7 @@ export const AboutContainer = styled.div`
   max-width: 1300px;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -24,18 +25,15 @@ export const BenefitsContainer = styled.div`
   height: auto;
 
   @media (max-width: 768px){
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+  
     align-items: center;
     justify-items: center;
     gap: 20px;
+
+
   }
 
-  @media (max-width: 415px){
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-  }
+
 `;
 
 export const BenefitContainer = styled.div`
@@ -71,5 +69,10 @@ export const BenefitContainer = styled.div`
   @media (max-width: 1030px){
     width: 180px;
     height: 180px;
+  }
+  @media (max-width: 700px){
+    width: 150px;
+    height: 150px;
+    
   }
 `;

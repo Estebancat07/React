@@ -23,6 +23,7 @@ export const HeadFilterCard =  styled.div`
 
   @media (max-width: 1024px){
     width: 200px;
+    
   }
 
   @media (max-width: 500px){
